@@ -1,0 +1,36 @@
+p {
+  font-family: Lato;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50%;
+}
+.first {
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+.second {
+  float: left;
+  padding: 10px;
+  width: 50%;
+  margin-left: 45%;
+}
+
+.new-first {
+  background-color: blue;
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+.new-second {
+  background-color: brown;
+  float: left;
+  padding: 10px;
+  width: 50%;
+}

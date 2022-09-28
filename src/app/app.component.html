@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div class="parent">
+      <input class="first" [ngClass]="{ 'first': !checked , 'new-first' : checked}">
+      <input class="second" [ngClass]="{ 'first': !checked , 'new-second' : checked}">
+    </div>
+    <div>
+    <mat-checkbox [(ngModel)]="checked"></mat-checkbox>
+  </div>
+  </body>
+</html>
